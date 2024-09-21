@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(99, 99, 210);
+}
+img{
+    height: 50px;
+
+}
+h1{
+    color: whitesmoke;
+}
+#title{
+
+    font-size:40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+}
+div>div>div{
+    display: flex;
+    justify-content:space-between
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<main>
+  <head>
+    <link rel="stylesheet" href="frontpage.css" />
+    <link rel="stylesheet" href="style.css">  
+    <style>
+      body{
+        background-color: orange;
+      }
+      #maincontent{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      img{
+        margin-bottom: 0px;
+      }
+      h1{
+        margin-top: 0px;
+      }
+      p{
+        margin-top:0px;
+      }
+    </style>
+  </head>
+  <body>    
+    <div id="maincontent">
+      <img src="./images/file copy.png" alt="">
+      <h1>FIREMAN</h1>
+      <p>Are you ready to play?</p>
+      <button id="redirectButton">Start</button>
+    </div>
+    <script>
+      document
+        .getElementById("redirectButton")
+        .addEventListener("click", function () {
+          window.location.href = "mainpage.html";
+        });
+    </script>
+
+  </body>
+</main>

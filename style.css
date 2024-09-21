@@ -1,0 +1,38 @@
+body {
+    font-family: cursive;
+    background-color: #161313;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gameover {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #f44;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d33;
+}
